@@ -1,0 +1,24 @@
+﻿The presented data files are structured as follows:
+
+
+1. Independent variable measurements
+2. Dependent variable measurements, with multiple trials
+3. Average of the previously presented trials
+4. Standard error of the previously presented trials
+5. Measurement error of the oscilloscope or function generator
+6. Maximum error
+7. Rounded average of the previously presented trials
+8. Rounded error corresponding to the rounded average
+
+
+For the first four files, a second round of measurements is presented, corresponding to the second peak voltage. As the number of measurements vary, the final chosen number of measurements is the lowest number out of all the second-peak trials.
+
+
+The glossary for the embedded data files applies as following:
+
+* AVG - average of the previously presented trials
+* STDERR - standard error associated with the averaged trials
+* mERR - measurement error associated with the oscilloscope or function generator
+* maxERR - the maximum value chosen out of the standard, and measurement error
+* rERR - maximum error, rounded to one significant figure
+* rAVG - average of the presented trials, rounded to the last decimal place of the rounded error
